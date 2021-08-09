@@ -1,0 +1,25 @@
+---
+abstract: 'Density dependent scale free network generator'
+author:
+  - 'Vikram Singh <vikram.singh7571@gmail.com>'
+  - 'Vikram Singh, PhD'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  Math::Random: '0'
+  Module::Build: '0'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4224, CPAN::Meta::Converter version 2.150010'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: DDSF
+provides:
+  DDSF:
+    file: lib/DDSF.pm
+    version: v0.1.0
+resources:
+  license: http://www.perlfoundation.org/artistic_license_2_0
+version: v0.1.0
+x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
